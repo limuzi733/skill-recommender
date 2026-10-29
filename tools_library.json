@@ -1,4 +1,4 @@
-{
+﻿{
   "tools": [
     {
       "id": "deepseek",
@@ -102447,6 +102447,3732 @@
       "platform": "ClawHub",
       "source": "clawhub.ai (license MIT-0)",
       "tested": false
+    },
+    {
+      "id": "andrej-karpathy-s-guidelines",
+      "name": "Andrej Karpathy's Guidelines",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Forrest Chang turned Karpathy's viral LLM coding-agent frustrations into four hard behavioral rules in one CLAUDE.md; repo hit 144k stars in weeks, now 210k+. 'The most battle-tested behavioral gua...",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add forrestchang/andrej-karpathy-skills",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/best-claude-code-skills"
+    },
+    {
+      "id": "firecrawl-developer-index",
+      "name": "Firecrawl Developer Index",
+      "type": "skill",
+      "category": "搜索分析",
+      "domain": "搜索分析",
+      "application": "",
+      "description": "Firecrawl's own skill: 'point Claude at a purpose-built index of GitHub issues, PRs, READMEs, and docs' so the agent works from fresh repository knowledge instead of stale training data.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "搜索分析",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via Firecrawl docs / skills CLI",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/best-claude-code-skills"
+    },
+    {
+      "id": "context-mode",
+      "name": "Context Mode",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Filters shell output noise from context and restores session state when Claude resets; reduces token waste from noisy tool output while keeping state continuity.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "npx skills add (community skill)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/best-claude-code-skills"
+    },
+    {
+      "id": "vercel-web-design-guidelines",
+      "name": "Vercel Web Design Guidelines",
+      "type": "skill",
+      "category": "设计视觉",
+      "domain": "设计视觉",
+      "application": "",
+      "description": "'Audits UI code against 100+ accessibility and UX rules' - a partner skill from Vercel that reviews generated frontend for a11y and UX quality.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "设计视觉",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add vercel-labs/skills",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/best-claude-code-skills"
+    },
+    {
+      "id": "vercel-composition-patterns",
+      "name": "Vercel Composition Patterns",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "'Replaces boolean prop hell with compound component patterns' - a Vercel partner skill teaching modern React composition idioms.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add vercel-labs/skills",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/best-claude-code-skills"
+    },
+    {
+      "id": "andrej-karpathy-s-guidelines-skill",
+      "name": "Andrej Karpathy's Guidelines Skill",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Karpathy's four LLM-coding rules encoded for Codex too: agents making silent wrong assumptions, over-engineering, orthogonal changes. The 210k+ star behavioral skill.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/best-codex-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "npx skills add forrestchang/andrej-karpathy-skills",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/best-codex-skills"
+    },
+    {
+      "id": "obra-superpowers",
+      "name": "Obra Superpowers",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Obra's Superpowers collection: planning, TDD, subagents, systematic debugging - the 280k-star methodology framework ported to OpenCode.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/best-opencode-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add obra/superpowers-marketplace",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/best-opencode-skills"
+    },
+    {
+      "id": "understand-anything",
+      "name": "Understand-Anything",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Guides the agent to thoroughly read, map and explain a codebase before modifying it - reduces wrong assumptions on unfamiliar repos.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/best-opencode-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "npx skills add (community skill)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/best-opencode-skills"
+    },
+    {
+      "id": "skill-optimizer",
+      "name": "skill-optimizer",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Audits a SKILL.md's description, length and triggers and suggests rewrites so the skill activates reliably and costs less context.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/best-opencode-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "npx skills add (meta skill)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/best-opencode-skills"
+    },
+    {
+      "id": "vault-daydream",
+      "name": "Vault Daydream",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Turns a notes vault into structured context the agent can query - personal knowledge management inside OpenCode.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/best-opencode-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "npx skills add (community skill)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/best-opencode-skills"
+    },
+    {
+      "id": "composio",
+      "name": "Composio",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Connects the agent to 250+ SaaS tools via MCP, letting OpenCode act through real apps instead of guessing APIs.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/best-opencode-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "npx skills add composiohq/composio (via MCP)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/best-opencode-skills"
+    },
+    {
+      "id": "firecrawl-cli",
+      "name": "Firecrawl CLI",
+      "type": "skill",
+      "category": "搜索分析",
+      "domain": "搜索分析",
+      "application": "",
+      "description": "Top-downloaded OpenClaw skill: Firecrawl CLI for scraping and structured extraction from inside the OpenClaw agent.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/openclaw-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "搜索分析",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via OpenClaw skill marketplace (skills.sh)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/openclaw-skills"
+    },
+    {
+      "id": "ontology",
+      "name": "Ontology",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Ontology (27.6K downloads) - OpenClaw skill for structuring domain knowledge and relationships for retrieval.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/openclaw-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via OpenClaw skill marketplace (skills.sh)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/openclaw-skills"
+    },
+    {
+      "id": "api-gateway",
+      "name": "API Gateway",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "API Gateway (13K downloads) - OpenClaw skill for creating and managing API gateways from agent instructions.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/openclaw-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via OpenClaw skill marketplace (skills.sh)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/openclaw-skills"
+    },
+    {
+      "id": "mcporter",
+      "name": "Mcporter",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Mcporter (11.1K downloads) - OpenClaw skill for porting MCP servers across environments and exporting configs.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/openclaw-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via OpenClaw skill marketplace (skills.sh)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/openclaw-skills"
+    },
+    {
+      "id": "himalaya",
+      "name": "Himalaya",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Himalaya (9.2K downloads) - OpenClaw skill using the Himalaya email CLI for reading and sending mail inside agent sessions.",
+      "links": {
+        "official": "",
+        "docs": "https://www.firecrawl.dev/blog/openclaw-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via OpenClaw skill marketplace (skills.sh)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Firecrawl Dev Blog",
+      "source_url": "https://www.firecrawl.dev/blog/openclaw-skills"
+    },
+    {
+      "id": "claude-blog",
+      "name": "Claude Blog",
+      "type": "skill",
+      "category": "写作文案",
+      "domain": "写作文案",
+      "application": "",
+      "description": "Claude-blog.md roundup #1: Claude Blog - AI blog writing for producing structured long-form posts.",
+      "links": {
+        "official": "",
+        "docs": "https://claude-blog.md/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "写作文案",
+        "未实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via Claude Code plugin marketplace",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "claude-blog.md",
+      "source_url": "https://claude-blog.md/blog/best-claude-code-skills"
+    },
+    {
+      "id": "claude-banana",
+      "name": "Claude Banana",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Roundup pick: Claude Banana - AI image generation for image assets inside agent workflows.",
+      "links": {
+        "official": "",
+        "docs": "https://claude-blog.md/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "未实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via Claude Code plugin marketplace",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "claude-blog.md",
+      "source_url": "https://claude-blog.md/blog/best-claude-code-skills"
+    },
+    {
+      "id": "code-review-skills",
+      "name": "Code review skills",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Roundup category: Code review skills enforcing security/perf/style checks before suggesting changes.",
+      "links": {
+        "official": "",
+        "docs": "https://claude-blog.md/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "未实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via Claude Code plugin marketplace",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "claude-blog.md",
+      "source_url": "https://claude-blog.md/blog/best-claude-code-skills"
+    },
+    {
+      "id": "testing-and-qa-skills",
+      "name": "Testing and QA skills",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Roundup category: Testing and QA skills generating framework-matched tests and QA checks.",
+      "links": {
+        "official": "",
+        "docs": "https://claude-blog.md/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "未实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via Claude Code plugin marketplace",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "claude-blog.md",
+      "source_url": "https://claude-blog.md/blog/best-claude-code-skills"
+    },
+    {
+      "id": "documentation-generators",
+      "name": "Documentation generators",
+      "type": "skill",
+      "category": "文档处理",
+      "domain": "文档处理",
+      "application": "",
+      "description": "Roundup category: Documentation generators producing READMEs, API docs and changelogs from code.",
+      "links": {
+        "official": "",
+        "docs": "https://claude-blog.md/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "文档处理",
+        "未实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via Claude Code plugin marketplace",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "claude-blog.md",
+      "source_url": "https://claude-blog.md/blog/best-claude-code-skills"
+    },
+    {
+      "id": "database-and-migration-skills",
+      "name": "Database and migration skills",
+      "type": "skill",
+      "category": "搜索分析",
+      "domain": "搜索分析",
+      "application": "",
+      "description": "Roundup category: Database and migration skills handling schema changes and safe migrations.",
+      "links": {
+        "official": "",
+        "docs": "https://claude-blog.md/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "搜索分析",
+        "未实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via Claude Code plugin marketplace",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "claude-blog.md",
+      "source_url": "https://claude-blog.md/blog/best-claude-code-skills"
+    },
+    {
+      "id": "devops-and-infrastructure-skills",
+      "name": "DevOps and infrastructure skills",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Roundup category: DevOps and infrastructure skills for infra-as-code and pipeline work.",
+      "links": {
+        "official": "",
+        "docs": "https://claude-blog.md/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "未实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "via Claude Code plugin marketplace",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "claude-blog.md",
+      "source_url": "https://claude-blog.md/blog/best-claude-code-skills"
+    },
+    {
+      "id": "git-dojo",
+      "name": "Git Dojo",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Git Dojo (5 EUR) - Interactive git training skill. Generates scenario-based challenges, scores your answers, tracks progress across sessions.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "drop folder into ~/.claude/skills/<name>/",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @raxxostudios (RAXXO)",
+      "source_url": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4"
+    },
+    {
+      "id": "commit-helper",
+      "name": "Commit Helper",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Enforces conventional commit messages, adds co-author tags, prevents force pushes to main. Several free versions available.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "drop folder into ~/.claude/skills/<name>/",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @raxxostudios (RAXXO)",
+      "source_url": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4"
+    },
+    {
+      "id": "napkin",
+      "name": "Napkin",
+      "type": "skill",
+      "category": "文档处理",
+      "domain": "文档处理",
+      "application": "",
+      "description": "Quick documentation skills that generate README sections, API docs, and changelogs from your codebase.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "文档处理",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "drop folder into ~/.claude/skills/<name>/",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @raxxostudios (RAXXO)",
+      "source_url": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4"
+    },
+    {
+      "id": "project-bootstrap",
+      "name": "Project Bootstrap",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Skills that scaffold new projects with your preferred stack, linting rules, and CI config. Saves 30-60 minutes per new project.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "drop folder into ~/.claude/skills/<name>/",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @raxxostudios (RAXXO)",
+      "source_url": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4"
+    },
+    {
+      "id": "brand-voice",
+      "name": "Brand Voice",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Teaches Claude Code your brand's writing style, forbidden words, and tone preferences. Essential if you use Claude Code for any copy or documentation.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "drop folder into ~/.claude/skills/<name>/",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @raxxostudios (RAXXO)",
+      "source_url": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4"
+    },
+    {
+      "id": "content-pipeline",
+      "name": "Content Pipeline",
+      "type": "skill",
+      "category": "写作文案",
+      "domain": "写作文案",
+      "application": "",
+      "description": "Skills that generate blog posts, social media copy, or email sequences following specific templates and SEO rules.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "写作文案",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "drop folder into ~/.claude/skills/<name>/",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @raxxostudios (RAXXO)",
+      "source_url": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4"
+    },
+    {
+      "id": "localization",
+      "name": "Localization",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Skills that handle i18n file generation, maintaining consistency across language files.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "drop folder into ~/.claude/skills/<name>/",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @raxxostudios (RAXXO)",
+      "source_url": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4"
+    },
+    {
+      "id": "component-builder",
+      "name": "Component Builder",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Skills that generate React/Vue/Svelte components following your design system's patterns, prop conventions, and styling approach.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "drop folder into ~/.claude/skills/<name>/",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @raxxostudios (RAXXO)",
+      "source_url": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4"
+    },
+    {
+      "id": "design-system-auditor",
+      "name": "Design System Auditor",
+      "type": "skill",
+      "category": "设计视觉",
+      "domain": "设计视觉",
+      "application": "",
+      "description": "Checks your components against design tokens and flags inconsistencies. Works well paired with the Figma MCP server.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "设计视觉",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "drop folder into ~/.claude/skills/<name>/",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @raxxostudios (RAXXO)",
+      "source_url": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4"
+    },
+    {
+      "id": "schema-generator",
+      "name": "Schema Generator",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Generates JSON-LD structured data for products, articles, FAQs, and other content types.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "drop folder into ~/.claude/skills/<name>/",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @raxxostudios (RAXXO)",
+      "source_url": "https://dev.to/raxxostudios/best-claude-code-skills-plugins-2026-guide-4ak4"
+    },
+    {
+      "id": "ay-skills",
+      "name": "Ay-Skills",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Ay-Skills is a public collection of Claude Code skills built by AY Automate - their hand-tested starter set.",
+      "links": {
+        "official": "",
+        "docs": "https://www.ayautomate.com/blog/best-claude-code-github-repos",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo README / /plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "AY Automate Blog",
+      "source_url": "https://www.ayautomate.com/blog/best-claude-code-github-repos"
+    },
+    {
+      "id": "claude-code-action",
+      "name": "claude-code-action",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Anthropic's official GitHub Action that runs Claude Code directly in your CI/CD pipeline. It detects @claude mentions in PRs.",
+      "links": {
+        "official": "",
+        "docs": "https://www.ayautomate.com/blog/best-claude-code-github-repos",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo README / /plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "AY Automate Blog",
+      "source_url": "https://www.ayautomate.com/blog/best-claude-code-github-repos"
+    },
+    {
+      "id": "github-mcp-server",
+      "name": "github-mcp-server",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "GitHub's official MCP server that gives Claude Code native access to repositories, pull requests and repo actions.",
+      "links": {
+        "official": "",
+        "docs": "https://www.ayautomate.com/blog/best-claude-code-github-repos",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo README / /plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "AY Automate Blog",
+      "source_url": "https://www.ayautomate.com/blog/best-claude-code-github-repos"
+    },
+    {
+      "id": "claude-context",
+      "name": "claude-context",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "claude-context is an MCP plugin that adds semantic code search to Claude Code. Instead of relying on Claude Code's built-in file reading it retrieves relevant code vectors.",
+      "links": {
+        "official": "",
+        "docs": "https://www.ayautomate.com/blog/best-claude-code-github-repos",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo README / /plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "AY Automate Blog",
+      "source_url": "https://www.ayautomate.com/blog/best-claude-code-github-repos"
+    },
+    {
+      "id": "superdesign-skill",
+      "name": "Superdesign skill",
+      "type": "skill",
+      "category": "设计视觉",
+      "domain": "设计视觉",
+      "application": "",
+      "description": "Superdesign's own skill explores several polished UI directions at once on an infinite canvas, and hands real React and Tailwind back to your agent - closes the design-taste gap skills cannot.",
+      "links": {
+        "official": "",
+        "docs": "https://superdesign.dev/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "设计视觉",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "npx skills add (or /plugin install)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Superdesign Blog",
+      "source_url": "https://superdesign.dev/blog/best-claude-code-skills"
+    },
+    {
+      "id": "trail-of-bits-static-analysis",
+      "name": "Trail of Bits static-analysis",
+      "type": "skill",
+      "category": "安全元工具",
+      "domain": "安全元工具",
+      "application": "",
+      "description": "Trail of Bits' open static-analysis skill pack orchestrates CodeQL and Semgrep across your changes to surface injection risks, auth gaps, and dependency issues before a human reviewer would.",
+      "links": {
+        "official": "",
+        "docs": "https://superdesign.dev/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "安全元工具",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "npx skills add (or /plugin install)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Superdesign Blog",
+      "source_url": "https://superdesign.dev/blog/best-claude-code-skills"
+    },
+    {
+      "id": "accesslint",
+      "name": "AccessLint",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "AccessLint: contrast and WCAG checks, with a contrast-math MCP. Narrow by design: accessibility only.",
+      "links": {
+        "official": "",
+        "docs": "https://superdesign.dev/blog/best-claude-code-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "npx skills add (or /plugin install)",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "Superdesign Blog",
+      "source_url": "https://superdesign.dev/blog/best-claude-code-skills"
+    },
+    {
+      "id": "matt-pocock-s-skills",
+      "name": "Matt Pocock's Skills",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Matt Pocock's Skills (295k) - requirements interviews, TDD, code review, architecture improvement, issue-driven work.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @khasky",
+      "source_url": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills"
+    },
+    {
+      "id": "ecc-everything-claude-code",
+      "name": "ECC / Everything Claude Code",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "ECC / Everything Claude Code (283k) - engineering skills and specialist agents, verification, security, hooks, memory.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @khasky",
+      "source_url": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills"
+    },
+    {
+      "id": "addy-osmani-s-agent-skills",
+      "name": "Addy Osmani's Agent Skills",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Addy Osmani's Agent Skills (108k) - full development lifecycle, behavior-preserving simplification, quality review, security, performance.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @khasky",
+      "source_url": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills"
+    },
+    {
+      "id": "agentic-awesome-skills",
+      "name": "Agentic Awesome Skills",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Agentic Awesome Skills (48k) - broad installable library with discovery, selection and stack-validation tooling.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @khasky",
+      "source_url": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills"
+    },
+    {
+      "id": "trail-of-bits-skills",
+      "name": "Trail of Bits Skills",
+      "type": "skill",
+      "category": "安全元工具",
+      "domain": "安全元工具",
+      "application": "",
+      "description": "Trail of Bits Skills (7.6k) - security audits, differential review, static analysis, mutation testing, spec compliance.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "安全元工具",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @khasky",
+      "source_url": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills"
+    },
+    {
+      "id": "awesome-agent-skills",
+      "name": "awesome-agent-skills",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "Awesome Agent Skills is worth considering when you want the investigation divided into specific deliverables: a ranked test-gap worklist, a plan review counting what can be removed, a cleanup report.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @khasky",
+      "source_url": "https://dev.to/khasky/practical-ai-coding-workflows-with-agent-skills"
+    },
+    {
+      "id": "allium",
+      "name": "Allium",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Allium (.allium spec files): intended behaviour - entities, rules with when/requires/ensures. The agent, via /elicit, /distill, /tend, /weed skills. Read as a spec; CLI validates; generates tests.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "claude-code-auto-memory",
+      "name": "Claude Code auto memory",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Claude Code auto memory: user, feedback, project and reference notes. Claude, automatically. MEMORY.md index (first 200 lines or 25 KB) loaded at start, topic files on demand.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "codex-memories",
+      "name": "Codex memories",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Codex memories: summaries and durable entries from prior chats. Codex, in the background. Injected into future sessions, not guaranteed.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "mem0",
+      "name": "Mem0",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Mem0 (OSS + platform): LLM-extracted facts. An LLM extraction pass on what you send. Semantic + keyword + entity retrieval, scoped by user_id/agent_id.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "supermemory",
+      "name": "Supermemory",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Supermemory: documents and extracted memories, profiles. Its extraction pipeline. Hybrid search via API. SDKs MIT; local server binary closed.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "mcp-knowledge-graph-memory-server",
+      "name": "MCP knowledge-graph memory server",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "MCP knowledge-graph memory server: entities, relations, atomic observations in a JSONL file. The agent via tools. MIT. Minutes to set up. Can delete observations.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "basic-memory",
+      "name": "Basic Memory",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Basic Memory: markdown notes with observations and wikilinks. You and the agent, same files. Semantic + full-text search. AGPL-3.0.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "zep-graphiti",
+      "name": "Zep / Graphiti",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Zep / Graphiti: temporal knowledge graph - entities, facts with validity windows, episodes. LLM extraction from episodes. Hybrid semantic + keyword + graph traversal.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "cognee",
+      "name": "Cognee",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Cognee: knowledge graph + vector index over text, code, chats. Its pipeline (remember / improve). Routed graph/vector recall; code graph queries.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "letta",
+      "name": "Letta",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Letta: core memory blocks (always in context) + archival memory. The agent edits its own blocks. Shared blocks across agents possible. Self-host.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "langmem",
+      "name": "LangMem",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "LangMem: semantic, episodic, procedural memories in your LangGraph store. Agent tools + background consolidation. MIT. Medium setup cost.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "palace-rs",
+      "name": "palace-rs",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "palace-rs: verbatim drawers (code, notes, diaries) in wings and rooms, per-agent diaries, a temporal KG with valid_from/valid_to, standing rules. Still single-machine.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "palace-server",
+      "name": "Palace Server",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Palace Server (team): same model as palace-rs, central. Each developer's agents. Shared drawers, KG and diaries; roles; row-level isolation; audit log of writes.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "see repo / MCP install docs",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @icegaming",
+      "source_url": "https://dev.to/icegaming/i-compared-12-ai-coding-agent-memory-solutions"
+    },
+    {
+      "id": "anthropics-skills-docx",
+      "name": "anthropics/skills - docx",
+      "type": "skill",
+      "category": "文档处理",
+      "domain": "文档处理",
+      "application": "",
+      "description": "The Anthropic-maintained skills repo is the baseline. The four document skills (pdf, docx, xlsx, pptx) are excellent. Note the license: they are source-available, not open source.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "文档处理",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @ventureio",
+      "source_url": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026"
+    },
+    {
+      "id": "anthropics-skills-pdf",
+      "name": "anthropics/skills - pdf",
+      "type": "skill",
+      "category": "文档处理",
+      "domain": "文档处理",
+      "application": "",
+      "description": "The four document skills (pdf, docx, xlsx, pptx) are excellent - pdf reads/writes real PDF documents.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "文档处理",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @ventureio",
+      "source_url": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026"
+    },
+    {
+      "id": "anthropics-skills-xlsx",
+      "name": "anthropics/skills - xlsx",
+      "type": "skill",
+      "category": "文档处理",
+      "domain": "文档处理",
+      "application": "",
+      "description": "The four document skills (pdf, docx, xlsx, pptx) are excellent - xlsx writes real spreadsheets.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "文档处理",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @ventureio",
+      "source_url": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026"
+    },
+    {
+      "id": "anthropics-skills-pptx",
+      "name": "anthropics/skills - pptx",
+      "type": "skill",
+      "category": "文档处理",
+      "domain": "文档处理",
+      "application": "",
+      "description": "The four document skills (pdf, docx, xlsx, pptx) are excellent - pptx builds editable decks.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "文档处理",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @ventureio",
+      "source_url": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026"
+    },
+    {
+      "id": "daymade-claude-code-skills",
+      "name": "daymade/claude-code-skills",
+      "type": "skill",
+      "category": "开发效率",
+      "domain": "开发效率",
+      "application": "",
+      "description": "56+ skills with a professional framing. Includes a skill-creator meta-skill that is genuinely useful for building your own. Active through January 2026.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "开发效率",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @ventureio",
+      "source_url": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026"
+    },
+    {
+      "id": "daymade-skill-creator",
+      "name": "daymade skill-creator",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Includes a skill-creator meta-skill that is genuinely useful for building your own skills inside daymade/claude-code-skills.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "/plugin marketplace add owner/repo",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @ventureio",
+      "source_url": "https://dev.to/ventureio/best-claude-code-skills-to-use-in-2026"
+    },
+    {
+      "id": "cloudflare-security-audit-skill",
+      "name": "cloudflare/security-audit-skill",
+      "type": "skill",
+      "category": "安全元工具",
+      "domain": "安全元工具",
+      "application": "",
+      "description": "cloudflare/security-audit-skill (41,497 stars): multi-phase security audit skill - turns any coding agent into a security auditor. Trending #1 of the top 15 GitHub repos.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/max_quimby/anthropic-just-gave-away-agent-skills-to-the-world",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "安全元工具",
+        "未实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "GitHub repo install",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @max_quimby",
+      "source_url": "https://dev.to/max_quimby/anthropic-just-gave-away-agent-skills-to-the-world"
+    },
+    {
+      "id": "graphify-labs-graphify",
+      "name": "Graphify-Labs/graphify",
+      "type": "skill",
+      "category": "通用",
+      "domain": "通用",
+      "application": "",
+      "description": "Graphify-Labs/graphify (133,761): knowledge-graph skill for Claude Code, Cursor, Codex, Gemini CLI - trending #2.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/max_quimby/anthropic-just-gave-away-agent-skills-to-the-world",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "通用",
+        "未实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "GitHub repo install",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @max_quimby",
+      "source_url": "https://dev.to/max_quimby/anthropic-just-gave-away-agent-skills-to-the-world"
+    },
+    {
+      "id": "snailsploit-claude-red",
+      "name": "SnailSploit/Claude-Red",
+      "type": "skill",
+      "category": "安全元工具",
+      "domain": "安全元工具",
+      "application": "",
+      "description": "SnailSploit/Claude-Red (8,255): offensive security skills library for Claude - trending #13.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/max_quimby/anthropic-just-gave-away-agent-skills-to-the-world",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "安全元工具",
+        "未实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "GitHub repo install",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @max_quimby",
+      "source_url": "https://dev.to/max_quimby/anthropic-just-gave-away-agent-skills-to-the-world"
+    },
+    {
+      "id": "genspark-ai-genoffice",
+      "name": "genspark-ai/genoffice",
+      "type": "skill",
+      "category": "办公自动化",
+      "domain": "办公自动化",
+      "application": "",
+      "description": "genspark-ai/genoffice (10,644): AI Office suite with agent skill integration - trending #15.",
+      "links": {
+        "official": "",
+        "docs": "https://dev.to/max_quimby/anthropic-just-gave-away-agent-skills-to-the-world",
+        "github": ""
+      },
+      "api": {
+        "available": false,
+        "type": "",
+        "docs_url": ""
+      },
+      "dimensions": {
+        "performance": null,
+        "speed": null,
+        "quality": null,
+        "review": null,
+        "price": null
+      },
+      "tags": [
+        "办公自动化",
+        "未实测"
+      ],
+      "test": {
+        "score": null,
+        "verdict": "",
+        "video_url": "",
+        "video_platform": "",
+        "points": [],
+        "tested_date": ""
+      },
+      "pricing": {
+        "free": true,
+        "type": "免费",
+        "price_text": ""
+      },
+      "downloads": null,
+      "install": {
+        "method": "命令安装",
+        "command": "GitHub repo install",
+        "platforms": [
+          "Codex",
+          "WorkBuddy"
+        ]
+      },
+      "platform": "dev.to @max_quimby",
+      "source_url": "https://dev.to/max_quimby/anthropic-just-gave-away-agent-skills-to-the-world"
     }
   ]
 }
