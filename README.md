@@ -1,17 +1,6 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: ce3f8cef097dc1f6809fc41965e9d97c_4f751f90d02311f1acb8525400638852
-    ReservedCode1: ih2y6TX7FiaVCJl+04dfNdpBfobX/tMAYKE4pzMRoRzWvT7iW7nqjY+ZAtpDls4tGDHwGmzeekBIncvpiBlAjET7t/EWf+YZQ99pWQaAcDVHxnU02D/sEwFp3Y4TeP56YVixK56Nl22PGi8MAf1BBdfAxmJ9CJ7mZmeSI9ci3NtV/Y63UqaH34o0ztw=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: ce3f8cef097dc1f6809fc41965e9d97c_4f751f90d02311f1acb8525400638852
-    ReservedCode2: ih2y6TX7FiaVCJl+04dfNdpBfobX/tMAYKE4pzMRoRzWvT7iW7nqjY+ZAtpDls4tGDHwGmzeekBIncvpiBlAjET7t/EWf+YZQ99pWQaAcDVHxnU02D/sEwFp3Y4TeP56YVixK56Nl22PGi8MAf1BBdfAxmJ9CJ7mZmeSI9ci3NtV/Y63UqaH34o0ztw=
----
-
 # Skill-Recommender · AI 工具推荐器
 
-**按需自动安装合适的 SKILL 们，不用到处找。**
+**说一句想做什么，自动配齐所需 SKILL。**
 
 用户只需说清楚想做什么（如「帮我做一个心理学圆桌讨论网站」），本技能会：
 

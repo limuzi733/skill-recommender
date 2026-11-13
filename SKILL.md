@@ -1,31 +1,12 @@
 ---
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: ce3f8cef097dc1f6809fc41965e9d97c_4e31e9ddd02311f19f8752540064ee0f
-    ReservedCode1: iJw+xcrH1yBRF19qFgxY2LQ8JIK40bYHa2Pwqzh+nRrUmsnOC6PSYjwz5k/XX8oJaw7U+ngUGhaFI5DYWaoY9z1GUCyK3dtgVS87lcPnoCYoVS/dRUXePPbfCV5MspWoiJfeUOkuAmuQU3udYlCkPJeV+ayN1prQYqp97mQy3fWhc1YRBhH+Kwcu3E4=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: ce3f8cef097dc1f6809fc41965e9d97c_4e31e9ddd02311f19f8752540064ee0f
-    ReservedCode2: iJw+xcrH1yBRF19qFgxY2LQ8JIK40bYHa2Pwqzh+nRrUmsnOC6PSYjwz5k/XX8oJaw7U+ngUGhaFI5DYWaoY9z1GUCyK3dtgVS87lcPnoCYoVS/dRUXePPbfCV5MspWoiJfeUOkuAmuQU3udYlCkPJeV+ayN1prQYqp97mQy3fWhc1YRBhH+Kwcu3E4=
----
-
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: ce3f8cef097dc1f6809fc41965e9d97c_dd50c01bcf6e11f19f8752540064ee0f
-    ReservedCode1: cD8UlEwKM5kI0/tCkH17lFL9YLznnWECimvcx6OfHFIDcZGFDJSxcvmuGzalYzdJES47lkuUY77p3CkMH1rTmKiE6kLhhsnvYtwm9uZCUDuZT8FLzNmHaXjQaGJUr7ReUcj1rdxIu5bo6FEUNKP9e0Km5ncTXoGFU2ZneEqqD2vAWjEBupK9BWixzxE=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: ce3f8cef097dc1f6809fc41965e9d97c_dd50c01bcf6e11f19f8752540064ee0f
-    ReservedCode2: cD8UlEwKM5kI0/tCkH17lFL9YLznnWECimvcx6OfHFIDcZGFDJSxcvmuGzalYzdJES47lkuUY77p3CkMH1rTmKiE6kLhhsnvYtwm9uZCUDuZT8FLzNmHaXjQaGJUr7ReUcj1rdxIu5bo6FEUNKP9e0Km5ncTXoGFU2ZneEqqD2vAWjEBupK9BWixzxE=
 name: ai-tool-recommender
 display_name: AI工具推荐器
 display_name_en: "AI Tool Recommender"
-version: 1.1.0
+version: 1.1.1
 author: 台州银溪科技
-description: 用户问「我该装什么 SKILL / 帮我找能做XX的 SKILL / 推荐个工具」时，先读取本机 AI 客户端（WorkBuddy/Codex）会话记录确认真实诉求，再把任务拆解成若干子领域，从工具库为每个子领域匹配最合适的 SKILL 组成技能包，用实测记录/来源/安装量过滤低质项并附实测结论，最后一次性输出整套安装命令，按需自动安装合适的 SKILL 们，不用到处找；没有会话记录时用引导式追问确认需求后再执行。
-description_zh: "用户问「我该装什么 SKILL / 帮我找能做XX的 SKILL / 推荐个工具」时，先读取本机 AI 客户端（WorkBuddy/Codex）会话记录确认真实诉求，再把任务拆解成若干子领域，从工具库为每个子领域匹配最合适的 SKILL 组成技能包，用实测记录/来源/安装量过滤低质项并附实测结论，最后一次性输出整套安装命令，按需自动安装合适的 SKILL 们，不用到处找；没有会话记录时用引导式追问确认需求后再执行。"
-description_en: 'When the user asks "which SKILL should I install" or "help me find a tool for XX": first read local AI client (WorkBuddy/Codex) session logs to confirm the real intent, then break the task into sub-domains, match the best SKILL for each sub-domain from the tool library to form a SKILL pack, filter low-quality items using test records/sources/download counts and attach real test conclusions, finally output the full install command list so users can auto-install the right SKILLs without searching everywhere; if no session logs exist, ask guided follow-up questions first.'
+description: 说一句想做什么，自动配齐所需 SKILL。
+description_zh: 说一句想做什么，自动配齐所需 SKILL。
+description_en: 'Say what you want to do, and it assembles the SKILLs you need.'
 allowed-tools:
   - Read
   - Write
@@ -37,7 +18,9 @@ metadata:
   revision: "2026-10-31"
 ---
 
+**说一句想做什么，自动配齐所需 SKILL。**
 
+> 用户问「我该装什么 SKILL / 帮我找能做XX的 SKILL / 推荐个工具」时，先读取本机 AI 客户端（WorkBuddy/Codex）会话记录确认真实诉求，再把任务拆解成若干子领域，从工具库为每个子领域匹配最合适的 SKILL 组成技能包，用实测记录/来源/安装量过滤低质项并附实测结论，最后一次性输出整套安装命令，按需自动安装合适的 SKILL 们，不用到处找；没有会话记录时用引导式追问确认需求后再执行。
 
 # Skill-Recommender
 
@@ -145,4 +128,5 @@ metadata:
 
 - 不编造工具库中不存在的 SKILL 名称；匹配不到的子领域如实说明。
 - 所有推荐必须能追溯到工具库真实条目（id/name 唯一）。
+
 *（内容由AI生成，仅供参考）*
